@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('/themes/ruxmon/css/fonts/opensans-regular-webfont.eot');
+    src: url('/themes/ruxmon/css/fonts/opensans-regular-webfont.eot') format('embedded-opentype'),
+         url('/themes/ruxmon/css/fonts/opensans-regular-webfont.woff') format('woff'),
+         url('/themes/ruxmon/css/fonts/opensans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('/themes/ruxmon/css/fonts/opensans-bold-webfont.eot');
+    src: url('/themes/ruxmon/css/fonts/opensans-bold-webfont.eot') format('embedded-opentype'),
+         url('/themes/ruxmon/css/fonts/opensans-bold-webfont.woff') format('woff'),
+         url('/themes/ruxmon/css/fonts/opensans-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/** Reset **/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+body                                { line-height:1.5;}
+table                               { border-collapse:separate;border-spacing:0; }
+caption, th, td                     { text-align:left;font-weight:normal; }
+table, td, th                       { vertical-align:middle; }
+blockquote:before, blockquote:after, q:before, q:after { content:""; }
+blockquote, q                       { quotes:"" "";}
+a img                               { border:none; }
+em                                  { font-style: italic; }
+
+/** Layout **/
+html,
+body				    { height:100%; background:url('/themes/ruxmon/images/bg.png') top left; color:#333333; font-family: OpenSansRegular; font-size:14px; line-height:1.4; }
+
+a				    { text-decoration:none; color:#1B4D7C; }
+a:hover				    { text-decoration:underline; color:#0077BB; }
+
+h1		                    { font-family: OpenSansBold; font-size:160%; text-transform:uppercase; color:#231f20; font-weight:bold; margin:0px 0px 20px 0px; }
+h2				    { font-family: OpenSansBold; font-size:140%; text-transform:uppercase; color:#231f20; font-weight:bold; margin:0px 0px 14px 0px; }
+h3			            { font-family: OpenSansBold; font-size:120%; text-transform:uppercase; color:#231f20; font-weight:bold; margin:0px 0px 12px 0px; }
+h4                                  { font-family: OpenSansBold; font-size:100%; text-transform:uppercase; color:#231f20; font-weight:bold; margin:0px 0px 10px 0px; }
+
+p				    { margin:0px 0px 12px 0px; }
+ul,
+ol			            { list-style-position:outside; margin:0px 0px 12px 20px; }
+ul				    { list-style-image:url('/themes/ruxmon/images/bullet.png'); }
+li			            { padding:2px 0px; }
+
+.bold                               { font-weight:bold; }
+.italics                            { font-style:italic; }
+.underline                          { text-decoration:underline; }
+
+.gbox                               { border:1px solid #e1e1e1; background-color:#f5f5f5; padding:10px; }
+.rbutton                            { padding-left:5px; padding-right:5px; padding-down: 5px; width:74px; font-size:11px; text-align:center; height:25px; color:#FFFFFF; line-height:2.0; background:url('/themes/ruxmon/images/button.png') top left no-repeat; display:inline-block; text-transform:uppercase; }
+.rbutton span                       { width:2px; height:26px; background:url('/themes/ruxmon/images/button.png') top right no-repeat; display:inline-block; float:right; }
+.rbutton:hover                      { text-decoration:none; color:#FFFFFF; }
+
+#containerSite                      { width:100%; height:100%; }
+#header                             { height:85px; width:100%; position:relative; border-top:11px solid #141414; background-color:#FFFFFF; }
+#header .con                        { width:980px; margin:0 auto; }
+#accessbility                       { display:none; }
+#header h1                          { float:left; display:block; height:66px; width:204px; margin:11px 0px 0px 16px;  } 
+//#header h1                          { float:left; display:block; height:66px; width:150px; margin:11px 0px 0px 16px;  } 
+//#header h1 a                        { display:block; border:none; height:66px; width:200px; background:url('/themes/ruxmon/images/ruxcon-logo.png') no-repeat top left; } 
+#header h1 a                        { display:block; border:none; height:66px; width:204px; background:url('/themes/ruxmon/images/ruxcon-logo.png') no-repeat top left; } 
+#header h1 span                     { display:none; } 
+
+//#nav                                { font-size:80%; margin:38px 0px 0px 0px; float:right; list-style:none; }
+#nav                                { font-size:80%; margin:38px 0px 0px 0px; float:right; list-style:none; }
+#nav li                             { display:inline; margin-right:4px; }
+#nav li.last                        { margin-right:0px;}
+//#nav li a                           { color:black; padding:10px; text-transform:uppercase; }
+#nav li a                           { color:black; padding:10px 10px; text-transform:uppercase; }
+#nav li a:hover,                     
+#nav li.active a                    { background-color:#1a6710; color:#FFFFFF; text-decoration:none; }
+
+#content                            { overflow:auto; width:940px; margin:0 auto; padding:20px 24px 20px 24px; background:url('/themes/ruxmon/images/content-bg.png') top left repeat-y; }
+#content #left                      { float:left; width:600px; margin-right:18px; }
+#content #right                     { float:left; width:322px; }
+
+#footer                             { width:940px; font-size:90%; overflow:auto; margin:0 auto; background:url('/themes/ruxmon/images/content-cap.png') top left no-repeat; color:#444444; padding:30px 24px 20px 24px; }
+#social                             { float:right; clear:both; padding-top:0px;}
+#social a                           { display:inline-block; margin-left:8px; height:26px; width:26px; background-image:url('/themes/ruxmon/images/social.png'); background-repeat:no-repeat; }
+#social a.facebook                  { background-position:-1px 0px; }
+#social a.twitter                   { background-position:-35px 0px; }
+#social a.reddit                    { background-position:-69px 0px; }
+#social a.rss                       { background-position:-103px 0px; }
+#social a span                      { display:none; }
+
+/** Homepage **/
+
+#feature                            { height:330px; width:100%; background:url('/themes/ruxmon/images/feature-bg.png') top right repeat-x; color:#FFFFFF; }
+#feature .con                       { width:980px; margin:0 auto; padding:30px 0px 18px 0px; }
+#feature .con h2                    { color:#FFFFFF; text-align:center; font-size:220%; text-transform:uppercase; margin-bottom:6px; }
+#feature .con p                     { color:#FFFFFF; text-align:center; font-size:110%; }
+
+#speakers                           { width:1026px; margin:0 auto; overflow:auto; }
+#speakers h2                        { color:#6dc477; text-transform:uppercase; font-size:180%; margin-bottom:20px; margin-left:38px; float:left; clear:both; }
+#speakers a#slider-nav-prev         { float:left; width:26px; clear:left; height:215px; background:url('/themes/ruxmon/images/slider-nav.png') center left no-repeat; }
+#speakers a#slider-nav-next         { float:left; width:26px; height:215px; background:url('/themes/ruxmon/images/slider-nav.png') center right no-repeat; }
+#speakers a#slider-nav-prev span,
+#speakers a#slider-nav-next span    { display:none; }
+#speakers #slider                   { float:left; height:215px; width:974px; overflow:hidden; }
+#speakers #slider ul                { margin:0px; list-style:none; width:8000px; }
+#speakers #slider ul li             { margin:0px 11px 0px 12px; float:left; padding:0px; text-align:center; }
+#speakers #slider ul li a           { display:block; color:#FFFFFF; }
+#speakers #slider ul li a:hover     { text-decoration:none; }
+#speakers #slider ul li a p         { margin:5px 0px 0px 0px; }
+
+#slider 			    { height:150px; width:890px; margin:0px auto 14px auto; display:none; }
+#slider img		    	    { color:black; border-radius: 10px 10px 10px 10px; }
+.nivoSlider 			    { position:relative; background:url(/themes/ruxmon/images/slider/loading.gif) no-repeat 50% 50%; }
+.nivoSlider img 		    { position:absolute; top:0px; left:0px; display:none; }
+
+
+#feature-bar                        { height:84px; background:#1a6710 url('/themes/ruxmon/images/bar-shadow.png') top left repeat-x; }
+#feature-bar .con                   { width:790px; margin:0 auto; text-align:center; padding:8px 0px; overflow:auto; }
+#feature-bar h2                     { float:left; text-transform:uppercase; color:#FFFFFF; margin:20px 0px 0px 0px; font-size:180%; }
+#feature-bar #countdown             { float:left; margin:4px 25px 0px 25px; }
+#countdown .days,
+#countdown .hours,
+#countdown .mins                    { float:left; position:relative; height:60px; width:50px; background:url('/themes/ruxmon/images/countdown-bg.png') top left no-repeat; color:#e0eff3;  }
+#countdown .days .value,
+#countdown .hours .value,
+#countdown .mins .value             { font-size:190%; display:block; width:50px; font-weight:bold; line-height:1.6; float:left; clear:both; text-align:center; }
+#countdown .days .split,
+#countdown .hours .split,
+#countdown .mins .split             { display:block; width:35px; height:2px; position:absolute; z-index:100; left:8px; top:18px; background:url('/themes/ruxmon/images/countdown-split.png') top left no-repeat; }
+#countdown .days .title,
+#countdown .hours .title,
+#countdown .mins .title             { float:left; clear:both; text-transform:uppercase; font-weight:bold; margin-top:10px; text-align:center; width:50px; font-size:90%; }
+#feature-bar #register-now          { float:left; clear:right; display:block; margin-top:2px; height:66px; width:269px; background:url('/themes/ruxmon/images/register-now.png') top left no-repeat; }
+#feature-bar #register-now span     { display:none; }
+
+#news                               { margin-bottom:20px; }
+#news hr                            { height:1px; border:none; background-color:#e1e1e1; margin:10px 0px; }
+#news .item img                     { float:left; margin:0px 8px 8px 0px; }
+
+#newsletter                         { width:auto; }
+#newsletter .subscribe              { overflow:auto; clear:both; }
+//#newsletter .subscribe .input     { float:left;width:100px; border:1px solid #bdbdbd; background:#FFFFFF url('/themes/ruxmon/images/email.png') top left no-repeat; padding-left:34px; }
+#newsletter .subscribe .input       { float:left; width:160px; height:24px; border:1px solid #bdbdbd; background:#FFFFFF url('/themes/ruxmon/images/email.png') top left no-repeat; padding-left:34px; }
+//#newsletter .subscribe .input input { border:none; background:transparent; padding:2px 0px; }
+#newsletter .subscribe .input input { font-size:12px; width:158px; border:none; padding:2px 0px; background:transparent;}
+//#newsletter .subscribe a            { float:right; width:88px; }
+#newsletter .subscribe .button input { padding-left: 5px; padding-right: 5px; font-size: 11px; width:88px; }
+
+/** Sponsors **/
+#platsponsors			    { float: left; margin-top:29px; margin-right: 50px; }
+#platsponsors img		    { height:36px; display: block; }
+#goldsponsors			    { float: left; }
+#goldsponsors ul		    { padding:0px; margin:0px; list-style-image:none; list-style-type:none;}
+#goldsponsors ul li		    { float: left; padding-right:30px; list-style-image:none; list-style-type:none;}
+#goldsponsors ul li img		    { height:36px; display: block; }
+/** Speakers Page **/
+
+#presentations                      { }
+#presentations .days                { margin:0px 0px 20px 0px; list-style:none; }
+#presentations .days li             { display:inline; padding:0px; margin-right:10px; }
+#presentations .days li span        { display:inline-block; width:10px; height:10px; margin-right:5px; }
+
+#presentations .day-1               { border-bottom-color:#7bba4d; }
+#presentations .day-1 img              { border-bottom-color:#7bba4d; }
+#presentations .days li.day-1 span  { background-color:#7bba4d; }
+#presentations .day-2               { border-bottom-color:#279ee9; }
+#presentations .day-2 img              { border-bottom-color:#279ee9; }
+#presentations .days li.day-2 span  { background-color:#279ee9; }
+#presentations .day-3               { border-bottom-color:#bc1d28; }
+#presentations .days li.day-3 span  { background-color:#bc1d28; }
+
+#presentations .thumbs              { float:left; clear:both; width:940px; margin-bottom:20px; }
+//#presentations .thumbs a.thumb      { float:left; width:218px; height:49px; margin:0px 20px 10px 0px; border-top:1px solid #e1e1e1; border-left:1px solid #e1e1e1; border-right:1px solid #e1e1e1; border-bottom-style:solid; border-bottom-width:3px; color:#6a6a6a; }
+#presentations .thumbs a.thumb      { float:left; width:290px; height:60px; margin:0px 20px 10px 0px; border-top:1px solid #e1e1e1; border-left:1px solid #e1e1e1; border-right:1px solid #e1e1e1; border-bottom-style:solid; border-bottom-width:3px; color:#6a6a6a; }
+#presentations .thumbs a.thumb:hover { border-bottom-color:#000000; }
+#presentations .thumbs a.last       { margin-right:0px; }
+#presentations .thumbs a.thumb img  { float:left; width:37px; height:50px;}
+//#presentations .thumbs a.thumb h4   { float:right; width:169px; margin:3px 6px 0px 6px; }
+#presentations .thumbs a.thumb h4   { float:right; width:240px; margin:3px 6px 0px 6px; font-size:80%; }
+//#presentations .thumbs a.thumb p    { float:right; width:169px; margin:3px 6px; line-height:1.1; text-transform:uppercase; font-size:90%; }
+#presentations .thumbs a.thumb p    { float:right; width:240px; margin:3px 6px; line-height:1.1; text-transform:uppercase; font-size:80%; }
+
+#presentations .bios                { }
+//#presentations .bios .bio           { float:left; clear:both; margin-bottom:8px; border-top:1px solid #e7e7e7; padding-top:20px; }
+#presentations .bios .bio           { float:left; clear:both; width:960px; margin-bottom:8px; border-top:1px solid #e7e7e7; padding-top:20px; }
+#presentations .bios .bio img       { float: left; height:190px; width:150px; float:left; margin:0px 26px 0px 0px; border-bottom-style:solid; border-bottom-width:5px; }
+//#presentations .bios .bio .desc     { float:left; width:775px; }
+#presentations .bios .bio .desc     { float:left; width:750px; }
+#presentations .bios .bio .desc h2  { margin:0px; }
+#presentations .bios .bio .desc h4  { color:#bc1d28; }
+
+/** Content Page **/
+
+#callout                            { height:94px; width:100%; background:url('/themes/ruxmon/images/feature-bg.png') top right repeat-x; color:#FFFFFF; border-bottom:3px solid #1a6710; }
+#callout .con                       { width:980px; margin:0 auto; padding:30px 0px 18px 0px; }
+#callout .con h2                    { color:#FFFFFF; text-align:center; font-size:220%; text-transform:uppercase; margin-bottom:6px; }
+
+/* Ascii Page */
+#ascii { font-family:monospace; font-size: 11pt;  padding-left:100px;}
+
+/* Twitter */
+
+#twitterbird {
+//	background: url(/themes/ruxmon/images/twitterbird.png) no-repeat left top transparent;
+//	height: 36px;
+//	width: 36px;
+//	margin: 0 20 0 0;
+//	float: right;
+}
+#twitterbird img {
+	float: right;
+	height: 36px;
+	width: 36px;
+}
+#twitterbird h2 {
+	margin: 0px 0px 6px 0px;
+}
+
+.twitter2,
+#twitter {
+	margin-bottom: 1.5em;
+	padding: 5px;
+	min-height: 310px;
+}
+
+.twitter2 p.preLoading,
+#twitter p.preLoading {
+	margin: 0;
+	padding: 1em 1em 1em 3em;
+	background: transparent url(/themes/ruxmon/g/images/loader.gif) 1em center no-repeat;
+}
+
+.twitter2 ul.tweet_list,
+#twitter ul.tweet_list {
+	margin: 0;
+	padding: 3px 3px 0 0;
+	list-style-type: none;
+	list-style-image:none;
+}
+
+.twitter2 ul.tweet_list li,
+#twitter ul.tweet_list li {
+	margin: 0 0 10px 0;
+	padding: 0 0 1em 0;
+//	border-bottom: 1px solid #050505;
+//	border: 1px solid #050505;
+}
+
+.twitter2 ul.tweet_list li span,
+#twitter ul.tweet_list li span {
+	/* tweet content */
+//	display: block;
+	color: #050505;
+}
+
+.twitter2 ul.tweet_list li span a,
+#twitter ul.tweet_list li span a {
+	color: #454444;
+}
+
+.twitter2 .tweet_list p.profileLink,
+#twitter .tweet_list p.profileLink {
+	display: block;
+	margin: 0;
+	padding: 0.3em 1em;
+}
+
+.tweet_avatar {
+	margin: 0 5px 0 0;
+	float: left;
+}
+
+.tweet_name {
+	font-size: 12px;
+	font-style: none;
+}
+
+.tweet_time {
+	margin-top: 3px;
+	text-align: right;
+}
+
+.tweet_text {
+	text-align: left;
+}

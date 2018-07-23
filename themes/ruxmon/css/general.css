@@ -1,0 +1,287 @@
+.clr-bth{clear:both;}
+
+.trainingDetails {
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.trainingDetails .headers {
+    float: left;
+    background-color: #0C0C0C;
+    width: 120px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 3px solid #F7ECEC;
+    //border: 3px solid #bc1d28;
+    border-right: 0px;
+    padding-right: 10px;
+    margin-left: 18px;
+    text-align: right;
+    padding-bottom: 11px;
+    margin-bottom: 20px;
+    color: white;
+}
+.trainingDetails .headers div {
+    padding-top: 13px;
+}
+.trainingDetails .values div,
+.trainingDetails .headers div {
+    height: 20px;
+}
+.trainingDetails .values {
+    float: left;
+    background-image:url(/themes/ruxcon/css/images/body-bg.png); background-repeat:repeat;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    //border: 3px solid #bc1d28;
+    border: 3px solid #F8F8F8;
+    border-left: 0px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.trainingDetails .headers,
+.trainingDetails .values {
+    font-size: 14px;
+}
+
+.trainingDetails .values div.even {
+    background-color: #f8f8f8;
+}
+.trainingDetails .values span {
+    padding-top: 1px;
+    float: left;
+    clear: none;
+}
+.trainingDetails .values div {
+    width: 278px;
+    float: left;
+    clear: both;
+    color: black;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    padding-top: 11px;
+}
+.trainingDetails .values img {
+    float: right;
+    clear: none;
+//    border: 2px solid #F8F8F8;
+    border: 3px solid #bc1d28;
+    margin: 5px 5px 5px 0;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 160px;
+}
+
+.trainingDetails .centre-body {
+    width: 100%;
+    float: left;
+}
+
+.trainingDetails .left-body {
+    width: 50%;
+    float: left;
+}
+
+.trainingDetails .right-body {
+    width: 50%;
+    float: left;
+}
+.regoline {
+	margin-left: 65px; margin-right: auto;
+}
+
+.regoline .regoprice { 
+	float: left;
+	width: 250px;  height: 100px;  
+	color: #fff; background-color: #000;
+	text-align: center;  
+	font-size: 30px;  
+	line-height: 50px;
+	margin-top: 20px; margin-bottom: 20px; margin-left: 20px;
+ 
+ 
+	/*gradient styles*/
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2f2f2f), color-stop(.5, #1e1f1f), color-stop(.51, #0c0c0c), to(#000));
+	background: -moz-linear-gradient(top, #2f2f2f, #1e1f1f 50%, #0c0c0c 51%, #000);  
+ 
+	/*border styles*/
+	border-top: solid 2px #555;
+	border-bottom: solid 2px #111;
+ 
+	-moz-box-shadow:inset 0 0 15px #000000;
+	-webkit-box-shadow:inset 0 0 15px #000000;
+	box-shadow:inset 0 0 15px #000000;
+//	border: 3px solid #bc1d28;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.regoline .regoprice p#heading {
+	color: white;
+	font-size: 25px;
+	line-height: 40px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: heavy;
+	text-shadow: 0px 0px 3px #444;
+}
+.regoline .regoprice p#price {
+	color: white;
+	font-size: 20px;
+	line-height: 0px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 200;
+	text-shadow: 0px 0px 3px #444;
+}
+.regoline .regoprice p#date {
+	color: white;
+	font-size: 15px;
+	line-height: 40px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 100;
+	text-shadow: 0px 0px 3px #444;
+}
+
+.regoline .regoprice p#heading2 {
+        color: #999999;
+        font-size: 25px;
+        line-height: 40px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: heavy;
+        text-shadow: 0px 0px 3px #444;
+}
+.regoline .regoprice p#price2 {
+        color: #999999;
+        font-size: 20px;
+        line-height: 0px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 200;
+        text-shadow: 0px 0px 3px #444;
+}
+.regoline .regoprice p#date2 {
+        color: #999999;
+        font-size: 15px;
+        line-height: 40px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 100;
+        text-shadow: 0px 0px 3px #444;
+	clear:both;
+}
+
+.clr-bth{clear:both;}
+
+.trainline {
+        margin-left: auto; margin-right: auto;
+}
+
+.trainline .regoprice {
+        float: left;
+        width: 180px;  height: 100px;
+        color: #fff; background-color: #000;
+        text-align: center;
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 20px; margin-left: 20px;
+
+
+        /*gradient styles*/
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2f2f2f), color-stop(.5, #1e1f1f), color-stop(.51, #0c0c0c), to(#000));
+        background: -moz-linear-gradient(top, #2f2f2f, #1e1f1f 50%, #0c0c0c 51%, #000);
+
+        /*border styles*/
+        border-top: solid 2px #555;
+        border-bottom: solid 2px #111;
+
+        -moz-box-shadow:inset 0 0 15px #000000;
+        -webkit-box-shadow:inset 0 0 15px #000000;
+        box-shadow:inset 0 0 15px #000000;
+//      border: 3px solid #bc1d28;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+}
+
+.trainline .regoprice p#heading {
+        color: white;
+        font-size: 20px;
+        line-height: 10px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: heavy;
+        text-shadow: 0px 0px 3px #444;
+}
+.trainline .regoprice p#price {
+        color: white;
+        font-size: 20px;
+        line-height: 10px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 200;
+        text-shadow: 0px 0px 3px #444;
+}
+.trainline .regoprice p#date {
+        color: white;
+        font-size: 15px;
+        line-height: 10px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 100;
+        text-shadow: 0px 0px 3px #444;
+}
+
+.trainline .regoprice p#heading2 {
+        color: #999999;
+        font-size: 20px;
+        line-height: 10px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: heavy;
+        text-shadow: 0px 0px 3px #444;
+}
+.trainline .regoprice p#price2 {
+        color: #999999;
+        font-size: 20px;
+        line-height: 10px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 200;
+        text-shadow: 0px 0px 3px #444;
+}
+.trainline .regoprice p#date2 {
+        color: #999999;
+        font-size: 15px;
+        line-height: 10px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 100;
+        text-shadow: 0px 0px 3px #444;
+
+
+}
+
+/* Venue specific css */
+
+.venue {}
+.venue img { width: 295px; height: 200px; margin-right: 3px; margin-left: 3px; border:3px solid #021a40; background-color: #181818; margin-bottom: 6px }
+.venue #star img {border:none; height:10px; width:auto; margin:0; }
+.venue-right img {  padding: 10px; width: 30%; float: right; width: 180px; height: 300px;  padding: 1px; border: 3px solid #141414; background-color: #181818; }
+.venue table { border: 0px; margin: 10px clear:both; }
+.venue table tr td { padding: 8px; vertical-align: top; }
+.venue iframe { float: left; margin-right:20px; margin-top:15px; border:2px solid #021a40; clear:both;} 
+
+.sponsors {}
+.sponsors .line { width: 940px; text-align:left; display:block; margin-left:auto; margin-right:auto; padding-top:20px; padding-bottom:20px;}
+.sponsors hr { margin-bottom: 20px; }
+.sponsors .line img {  height: 60px; width:auto; margin-left: 10px; margin-right: 10px; padding-top: 10px; padding-bottom: 10px; padding-left:20px; padding-right:20px;}
+
+/* CTF */
+//.ctf { background-color: #302A2A; }
+.ctf { background-color: #151414; height: 520px; }
+
+.event {}
+.event img { width: 295px; margin-right: 3px; margin-left: 3px; border:3px solid #021a40; background-color: #181818; margin-bottom: 6px }
+.event .sponsor img { width: 200px; background-color: white; border:0px;  margin-right: 10px; margin-left: 10px;}
