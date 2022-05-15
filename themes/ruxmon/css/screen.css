@@ -68,7 +68,7 @@ li			            { padding:2px 0px; }
 #header h1 span                     { display:none; } 
 
 //#nav                                { font-size:80%; margin:38px 0px 0px 0px; float:right; list-style:none; }
-#nav                                { font-size:80%; margin:38px 0px 0px 0px; float:right; list-style:none; }
+#nav                                { font-size:95%; margin:38px 0px 0px 0px; float:left; list-style:none; }
 #nav li                             { display:inline; margin-right:4px; }
 #nav li.last                        { margin-right:0px;}
 //#nav li a                           { color:black; padding:10px; text-transform:uppercase; }
